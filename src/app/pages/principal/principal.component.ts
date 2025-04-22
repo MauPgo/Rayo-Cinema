@@ -1,6 +1,6 @@
 import { Component, AfterViewInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Router } from '@angular/router'; // 👈 Asegúrate de importar esto
+import { Router } from '@angular/router';
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
@@ -12,7 +12,7 @@ import 'swiper/css/bundle';
   styleUrls: ['./principal.component.css']
 })
 export class PrincipalComponent implements AfterViewInit {
-  constructor(private router: Router) {} // 👈 Inyectamos el router
+  constructor(private router: Router) {}
 
   topMovies = [
     { imagen: 'assets/images/1.jpg' },
